@@ -1,50 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
-
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
     <title>Vika-spell.github.io by vika-spell</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-    <a id="forkme_banner" href="https://github.com/vika-spell">View on GitHub</a>
-    <div class="shell">
-
+    <div class="wrapper">
       <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Vika-spell.github.io</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
+        <h1>Vika-spell.github.io</h1>
+        <p></p>
+
+
+        <p class="view"><a href="https://github.com/vika-spell">View My GitHub Profile</a></p>
+
       </header>
-
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
-      </div>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
+      <section>
         <h1>
 <a name="%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%9C%D0%92%D0%B8%D0%B4%D0%B5%D0%BE" class="anchor" href="#%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%9C%D0%92%D0%B8%D0%B4%D0%B5%D0%BE"><span class="octicon octicon-link"></span></a>Интерфейс сайта М.Видео</h1>
 
@@ -109,22 +87,27 @@ and-drop</em> механизма, который и используется в 
 
 <p>Главное меню содержит базовый набор операций и настроек среды:</p>
 
-<ul>
-<li><p><strong><em>Сцена</em></strong> — главная рабочая область, расположенная в центре, отображает диаграмму, 
+<p><strong><em>Сцена</em></strong> — главная рабочая область, расположенная в центре, отображает диаграмму, 
 над которой сейчас ведется работа, и позволяет ее редактировать. При исполнении 
-диаграмм текущий интерпретируемый блок подсвечивается на сцене.</p></li>
-<li><p><strong><em>Миникарта</em></strong> — отображение сцены в уменьшенном масштабе. Миникарта 
-располагается в правом верхнем углу окна системы. </p></li>
-<li><p><strong><em>Палитра элементов</em></strong> располагается справа под миникартой и содержит набор 
-доступных элементов для создания диаграмм.</p></li>
-<li><p><strong><em>Редактор свойств</em></strong> расположен в левом верхнем углу и используется для 
-редактирования значений свойств выделенного на сцене элемента.</p></li>
-<li><p><strong><em>Список переменных</em></strong> располагается слева под редактором свойств и отображает 
+диаграмм текущий интерпретируемый блок подсвечивается на сцене.</p>
+
+<p><strong><em>Миникарта</em></strong> — отображение сцены в уменьшенном масштабе. Миникарта 
+располагается в правом верхнем углу окна системы. </p>
+
+<p><strong><em>Палитра элементов</em></strong> располагается справа под миникартой и содержит набор 
+доступных элементов для создания диаграмм.</p>
+
+<p><strong><em>Редактор свойств</em></strong> расположен в левом верхнем углу и используется для 
+редактирования значений свойств выделенного на сцене элемента.</p>
+
+<p><strong><em>Список переменных</em></strong> располагается слева под редактором свойств и отображает 
 название и значение всех переменных, используемых во время исполнения 
-диаграммы, а также всех зарезервированных переменных среды.</p></li>
-<li><p><strong><em>Настройки сенсоров</em></strong> находятся слева под списком переменных и отображают и 
-предоставляют возможность настроить расположение сенсоров на портах робота.</p></li>
-</ul><p>Основные действия в среде QReal:Robots  связаны с созданием диаграмм, 
+диаграммы, а также всех зарезервированных переменных среды.</p>
+
+<p><strong><em>Настройки сенсоров</em></strong> находятся слева под списком переменных и отображают и 
+предоставляют возможность настроить расположение сенсоров на портах робота.</p>
+
+<p>Основные действия в среде QReal:Robots  связаны с созданием диаграмм, 
 следовательно, одним из важных показателей интерфейса является удобное расположение 
 доступных элементов для создания диаграмм в палитре.</p>
 
@@ -140,21 +123,11 @@ and-drop</em> механизма, который и используется в 
 
 <p><em>В общем и целом, можно сделать вывод, что интерфейс программы удобен и интуитивно понятен для пользователя.</em></p>
       </section>
-
       <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/vika-spell">vika-spell</a> can be found on <a href="https://github.com/vika-spell">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
-
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
   </body>
 </html>
